@@ -19,12 +19,21 @@ body {
     outline-offset: 3px;
 }
 
-.container {
+.container-left {
     width: 100%;
-    max-width: 1120px;
-    padding-left: 20px;
-    padding-right: 20px;
+    max-width: 600px;
+    padding-left: 0px;
+    padding-right: 0px;
     margin-left: auto;
+    margin-right: 0;
+}
+
+.container-right {
+    width: 100%;
+    max-width: 600px;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left: 0;
     margin-right: auto;
 }
 
@@ -64,10 +73,10 @@ body {
 }
 
 .div-right {
-    width: 100%;
+    width: 600px;
     display: flex;
     flex-direction: column;
-    padding: 54px 54px 0 54px;
+    padding: 54px 54px 0px 54px;
 }
 
 .div-right h1 {
